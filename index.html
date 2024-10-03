@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jankenpon</title>
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="jankenpon">
+        <div class="container">
+            <h1 class="jankenpon__title">Jankenpon</h1>
+            <div class="jankenpon__card">
+                <div class="jankenpon__card--player">
+                    <h2 class="jankenpon__player--title">Computer</h2>
+                    <div class="jankenpon__player--choice">
+                        <span id="computer-score" class="jankenpon__choice--score">0</span>
+                        <div class="jankenpon__choice--result">
+                            <i id="computer-icon" class="fa-solid fa-question"></i>
+                            <span id="computer-name">???</span>
+                        </div>
+                    </div>
+                </div>
+                <span class="jankenpon__card--vs">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+                <div class="jankenpon__card--player">
+                    <h2 class="jankenpon__player--title">Player</h2>
+                    <div class="jankenpon__player--choice">
+                        <span id="player-score" class="jankenpon__choice--score">0</span>
+                        <div class="jankenpon__choice--result">
+                            <i id="player-icon" class="fa-solid fa-question"></i>
+                            <span id="player-name">???</span>
+                        </div>
+                    </div>
+                    <div class="jankenpon__player--buttons">
+                        <button data-choice="rock" class="jankenpon__buttons--button">
+                            <i class="fa-solid fa-hand-fist"></i>
+                            <span>Rock</span>
+                        </button>
+                        <button data-choice="paper" class="jankenpon__buttons--button">
+                            <i class="fa-solid fa-hand"></i>
+                            <span>Paper</span>
+                        </button>
+                        <button data-choice="scissor" class="jankenpon__buttons--button">
+                            <i class="fa-solid fa-hand-peace"></i>
+                            <span>Scissor</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popup -->
+        <div id="popup-gameover" class="jankenpon__popup hidden">
+            <div class="jankenpon__popup--card">
+                <h2 id="popup-message" class="jankenpon__card--title"></h2>
+                <button id="popup-button" class="jankenpon__card--button">Restart</button>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/820f8511d6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
