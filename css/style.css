@@ -6,15 +6,14 @@
 
 :root {
     --green-050: #f0fdf4;
-    --green-200: #bbf7d0;
-    --green-400: #4ade80;
-    --green-600: #059669;
-    --green-800: #166534;
+    --green-300: #86efac;
+    --green-500: #22c55e;
+    --green-700: #15803d;
     --green-950: #052e16;
 }
 
 body {
-    background-color: var(--green-600);
+    background-color: var(--green-500);
     font-family: "Permanent Marker", system-ui;
     user-select: none;
     height: 100dvh;
@@ -37,13 +36,13 @@ section.jankenpon div.container {
 }
 
 section.jankenpon div.container h1.jankenpon__title {
-    color: var(--green-400);
+    color: var(--green-700);
     filter: drop-shadow(0px 5px 0px var(--green-950));
     font-size: 54px;
 }
 
 section.jankenpon div.container div.jankenpon__card {
-    background-color: var(--green-200);
+    background-color: var(--green-300);
     border-radius: 25px;
     box-shadow: var(--green-950) 0px 10px 10px;
     padding: 30px;
@@ -78,7 +77,7 @@ section.jankenpon div.container div.jankenpon__card span.jankenpon__card--vs {
 }
 
 section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--choice {
-    background-color: var(--green-800);
+    background-color: var(--green-700);
     color: var(--green-050);
     height: 100%;
     width: 100%;
@@ -87,7 +86,7 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player 
 }
 
 section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--choice span.jankenpon__choice--score {
-    background-color: var(--green-600);
+    background-color: var(--green-500);
     border-radius: 10px;
     position: absolute;
     top: 10px;
@@ -122,7 +121,7 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player 
 }
 
 section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player .jankenpon__player--buttons button.jankenpon__buttons--button {
-    background-color: var(--green-800);
+    background-color: var(--green-700);
     border-radius: 10px;
     border: none;
     color: var(--green-050);
@@ -133,7 +132,7 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player 
     justify-content: center;
     align-items: center;
     height: 40px;
-    width: 44px;
+    width: 50px;
     transition: .3s;
 }
 
@@ -165,7 +164,7 @@ section.jankenpon div.jankenpon__popup.hidden {
 }
 
 section.jankenpon div.jankenpon__popup div.jankenpon__popup--card {
-    background-color: var(--green-200);
+    background-color: var(--green-300);
     border-radius: 25px;
     box-shadow: var(--green-950) 0px 10px 10px;
     display: flex;
@@ -181,7 +180,7 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card h2.jankenpon__
 }
 
 section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenpon__card--button {
-    background-color: var(--green-800);
+    background-color: var(--green-700);
     border-radius: 10px;
     border: none;
     color: var(--green-050);
