@@ -78,7 +78,7 @@ function hidePopup() {
 
 function finishGame() {
     if (playerScore === maxScore || computerScore === maxScore) {
-        const message = playerScore === maxScore ? 'Você venceu o jogo!' : 'O computador venceu o jogo!';
+        const message = playerScore === maxScore ? 'You won the game!' : 'The computer won!';
         showPopup(message, true);
         return true;
     }

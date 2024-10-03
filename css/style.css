@@ -19,6 +19,11 @@ body {
     height: 100dvh;
 }
 
+button {
+    font-family: "Permanent Marker", system-ui;
+    color: var(--green-050);
+}
+
 section.jankenpon {
     position: relative;
     height: 100%;
@@ -36,7 +41,7 @@ section.jankenpon div.container {
 }
 
 section.jankenpon div.container h1.jankenpon__title {
-    color: var(--green-700);
+    color: var(--green-300);
     filter: drop-shadow(0px 5px 0px var(--green-950));
     font-size: 54px;
 }
@@ -124,7 +129,6 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player 
     background-color: var(--green-700);
     border-radius: 10px;
     border: none;
-    color: var(--green-050);
     cursor: pointer;
     box-shadow: 0 5px var(--green-950);
     display: flex;
@@ -183,7 +187,6 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
     background-color: var(--green-700);
     border-radius: 10px;
     border: none;
-    color: var(--green-050);
     padding: 10px 20px;
     cursor: pointer;
     box-shadow: 0 5px var(--green-950);
