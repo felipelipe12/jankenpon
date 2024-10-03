@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--green-500);
+    background-color: var(--green-700);
     font-family: "Permanent Marker", system-ui;
     user-select: none;
     height: 100dvh;
@@ -195,4 +195,16 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
 section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenpon__card--button:active {
     box-shadow: 0 0 var(--green-950);
     transform: translateY(5px);
+}
+
+@media screen and (max-width: 768px) {
+    section.jankenpon div.container div.jankenpon__card {
+        padding: 30px;
+        height: 100%;
+        width: 300px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
