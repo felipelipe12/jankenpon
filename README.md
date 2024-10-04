@@ -17,9 +17,8 @@
 Project developed to practice the logic and practices of structuring and stylization.
 
 For the development of the project, the following concepts were used:
-- HTML Semantics;
-- CSS Variables;
-- Responsiveness (mobile & desktop);
+- HTML: Semantics;
+- CSS: Variables, Responsiveness (mobile & desktop);
 
 <div align="center">
     <span>2024</span>
