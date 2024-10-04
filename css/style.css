@@ -203,8 +203,6 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
     transition: .3s;
 }
 
-
-
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 36px;
