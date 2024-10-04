@@ -6,9 +6,9 @@
   <br>
 
   <div>
-    <img src="https://img.shields.io/badge/HTML5-059669?style=for-the-badge&logo=html5&logoColor=052e16"/>
-    <img src="https://img.shields.io/badge/CSS3-059669?style=for-the-badge&logo=css3&logoColor=052e16"/>
-    <img src="https://img.shields.io/badge/JavaScript-059669?style=for-the-badge&logo=javascript&logoColor=052e16"/>
+    <img src="https://img.shields.io/badge/HTML5-15803d?style=for-the-badge&logo=html5&logoColor=052e16"/>
+    <img src="https://img.shields.io/badge/CSS3-15803d?style=for-the-badge&logo=css3&logoColor=052e16"/>
+    <img src="https://img.shields.io/badge/JavaScript-15803d?style=for-the-badge&logo=javascript&logoColor=052e16"/>
   </div>
 </div>
 
