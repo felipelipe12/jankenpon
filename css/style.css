@@ -136,6 +136,7 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--compute
 section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--buttons {
     display: flex;
     gap: 10px;
+    width: 100%;
 }
 
 section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--buttons button.jankenpon__buttons--button {
@@ -149,7 +150,7 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player 
     justify-content: center;
     align-items: center;
     height: 40px;
-    width: 44px;
+    width: 100%;
     transition: .3s;
 }
 
@@ -208,7 +209,7 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
 
     h2 {
@@ -216,8 +217,8 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
     }
 
     section.jankenpon div.container {
-        gap: 15px;
-        width: 200px;
+        gap: 20px;
+        width: 300px;
     }
 
     section.jankenpon div.container div.jankenpon__card {
@@ -229,7 +230,7 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
     }
 
     section.jankenpon div.container div.jankenpon__card span.jankenpon__card--vs {
-        font-size: 32px;
+        font-size: 36px;
     }
 
     section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--choice span.jankenpon__choice--score,
@@ -238,11 +239,6 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
         font-size: 14px;
         height: 25px;
         width: 25px;
-    }
-
-    section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--choice div.jankenpon__choice--result,
-    section.jankenpon div.container div.jankenpon__card div.jankenpon__card--computer div.jankenpon__computer--choice div.jankenpon__choice--result {
-        padding: 10px;
     }
 
     section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--choice div.jankenpon__choice--result i,
@@ -264,5 +260,10 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
 
     section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--buttons {
         order: 2;
+        width: 100%;
+    }
+
+    section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--buttons button.jankenpon__buttons--button {
+        width: 100%
     }
 }
