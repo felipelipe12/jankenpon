@@ -202,10 +202,8 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
     box-shadow: 0 5px var(--green-950);
     transition: .3s;
 }
-section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenpon__card--button:active {
-    box-shadow: 0 0 var(--green-950);
-    transform: translateY(5px);
-}
+
+
 
 @media screen and (max-width: 768px) {
     h1 {
