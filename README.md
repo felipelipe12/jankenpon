@@ -3,7 +3,7 @@
     <img src="img/jankenpon-logo.png">
   </div>
 
-  <br><br>
+  <br>
 
   <div>
     <img src="https://img.shields.io/badge/HTML5-059669?style=for-the-badge&logo=html5&logoColor=052e16"/>
@@ -14,12 +14,12 @@
 
 # Objective
 
-Projeto desenvolvido para aprendizado e consulta dos conceitos basicos de estruturação, 
+Project developed to practice the logic and practices of structuring and stylization.
 
-Para o desenvolvimento do projeto, foram utilizados os conceitos: 
-- Flexbox;
-- Responsividade;
-- Padronização e organização do código;
+For the development of the project, the following concepts were used:
+- HTML Semantics;
+- CSS Variables;
+- Responsiveness (mobile & desktop);
 
 <div align="center">
     <span>2024</span>
