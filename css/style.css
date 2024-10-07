@@ -21,6 +21,8 @@ body {
 
 h1 {
     font-size: 54px;
+    color: var(--green-300);
+    filter: drop-shadow(0px 5px 0px var(--green-950));
 }
 
 h2 {
@@ -49,11 +51,6 @@ section.jankenpon div.container {
     width: 480px;
 }
 
-section.jankenpon div.container h1.jankenpon__title {
-    color: var(--green-300);
-    filter: drop-shadow(0px 5px 0px var(--green-950));
-}
-
 section.jankenpon div.container div.jankenpon__card {
     background-color: var(--green-300);
     border-radius: 25px;
@@ -78,12 +75,12 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--compute
     gap: 10px;
 }
 
-section.jankenpon div.container div.jankenpon__card span.jankenpon__card--vs {
+section.jankenpon div.container div.jankenpon__card div.jankenpon__card--vs {
     font-size: 48px;
 }
 
 section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player,
-section.jankenpon div.container div.jankenpon__card span.jankenpon__card--vs {
+section.jankenpon div.container div.jankenpon__card div.jankenpon__card--vs {
     color: var(--green-950);
 }
 
@@ -139,7 +136,7 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player 
     width: 100%;
 }
 
-section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--buttons button.jankenpon__buttons--button {
+section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--buttons button {
     background-color: var(--green-700);
     border-radius: 10px;
     border: none;
@@ -154,12 +151,12 @@ section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player 
     transition: .3s;
 }
 
-section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player .jankenpon__player--buttons button.jankenpon__buttons--button:active {
+section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player .jankenpon__player--buttons button:active {
     box-shadow: 0 0 var(--green-950);
     transform: translateY(5px);
 }
 
-section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player .jankenpon__player--buttons button.jankenpon__buttons--button span.jankenpon__button--text {
+section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player .jankenpon__player--buttons button span.jankenpon__button--text {
     font-size: 10px;
 }
 
@@ -191,9 +188,10 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card {
     align-items: center;
     gap: 20px;
     padding: 30px;
+    width: 350px;
 }
 
-section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenpon__card--button {
+section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button {
     background-color: var(--green-700);
     border-radius: 10px;
     border: none;
@@ -209,7 +207,7 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     section.jankenpon div.container {
@@ -222,10 +220,10 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
         height: auto;
         display: flex;
         flex-direction: column;
-        gap: 0;
+        gap: 20px;
     }
 
-    section.jankenpon div.container div.jankenpon__card span.jankenpon__card--vs {
+    section.jankenpon div.container div.jankenpon__card div.jankenpon__card--vs {
         font-size: 36px;
     }
 
@@ -259,7 +257,7 @@ section.jankenpon div.jankenpon__popup div.jankenpon__popup--card button.jankenp
         width: 100%;
     }
 
-    section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--buttons button.jankenpon__buttons--button {
+    section.jankenpon div.container div.jankenpon__card div.jankenpon__card--player div.jankenpon__player--buttons button {
         width: 100%
     }
 }

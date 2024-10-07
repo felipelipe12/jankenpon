@@ -6,13 +6,13 @@
   <br>
 
   <div>
-    <img src="https://img.shields.io/badge/HTML5-15803d?style=for-the-badge&logo=html5&logoColor=052e16"/>
-    <img src="https://img.shields.io/badge/CSS3-15803d?style=for-the-badge&logo=css3&logoColor=052e16"/>
-    <img src="https://img.shields.io/badge/JavaScript-15803d?style=for-the-badge&logo=javascript&logoColor=052e16"/>
+    <img src="https://img.shields.io/badge/HTML5-22c55e?style=for-the-badge&logo=html5&logoColor=052e16"/>
+    <img src="https://img.shields.io/badge/CSS3-22c55e?style=for-the-badge&logo=css3&logoColor=052e16"/>
+    <img src="https://img.shields.io/badge/JavaScript-22c55e?style=for-the-badge&logo=javascript&logoColor=052e16"/>
   </div>
 </div>
 
-# Objective
+## Objective
 
 Project developed to practice the logic and practices of structuring and stylization.
 

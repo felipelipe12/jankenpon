@@ -16,7 +16,7 @@
 <body>
     <section class="jankenpon">
         <div class="container">
-            <h1 class="jankenpon__title">Jankenpon</h1>
+            <h1>Jankenpon</h1>
             <div class="jankenpon__card">
                 <div class="jankenpon__card--computer">
                     <h2 class="jankenpon__computer--title">Computer</h2>
@@ -28,9 +28,9 @@
                         </div>
                     </div>
                 </div>
-                <span class="jankenpon__card--vs">
+                <div class="jankenpon__card--vs">
                     <i class="fa-solid fa-xmark"></i>
-                </span>
+                </div>
                 <div class="jankenpon__card--player">
                     <h2 class="jankenpon__player--title">Player</h2>
                     <div class="jankenpon__player--choice">
@@ -61,8 +61,8 @@
         <!-- Popup -->
         <div id="popup-gameover" class="jankenpon__popup hidden">
             <div class="jankenpon__popup--card">
-                <h2 id="popup-message" class="jankenpon__card--title"></h2>
-                <button id="popup-button" type="button" class="jankenpon__card--button">Restart</button>
+                <h2 id="popup-message"></h2>
+                <button id="popup-button" type="button">Restart</button>
             </div>
         </div>
     </section>
