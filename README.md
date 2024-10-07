@@ -20,6 +20,8 @@ For the development of the project, the following concepts were used:
 - HTML: Semantics;
 - CSS Variables, Flexbox & Grid Layout, Responsiveness (Mobile & Desktop);
 
+<br>
+
 <div align="center">
     <span>2024</span>
 </div>
