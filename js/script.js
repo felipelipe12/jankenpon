@@ -60,26 +60,26 @@ function updateScore() {
 }
 
 function showPopup(message, isFinish) {
-    const popup = document.getElementById('popup-gameover');
+    const popupGameover = document.getElementById('popup-gameover');
     const popupMessage = document.getElementById('popup-message');
     const popupButton = document.getElementById('popup-button');
 
     popupMessage.textContent = message;
     popupButton.textContent = isFinish ? 'Restart' : 'Continue';
-    popup.classList.remove('hidden');
-    popup.classList.add('show');
+    popupGameover.classList.remove('hidden');
+    popupGameover.classList.add('show');
 }
 
 function hidePopup() {
-    const popup = document.getElementById('popup-gameover');
-    popup.classList.add('hidden');
-    popup.classList.remove('show');
+    const popupGameover = document.getElementById('popup-gameover');
+    popupGameover.classList.add('hidden');
+    popupGameover.classList.remove('show');
 }
 
 function finishGame() {
     if (playerScore === maxScore || computerScore === maxScore) {
-        const message = playerScore === maxScore ? 'You won the game!' : 'The computer won!';
-        showPopup(message, true);
+        const popupMessage = playerScore === maxScore ? 'You won the game!' : 'The computer won!';
+        showPopup(popupMessage, true);
         return true;
     }
     return false;
